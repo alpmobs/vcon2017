@@ -178,8 +178,25 @@ header.mainScr.mid h1 {
 
 .categories .col {
   color: #fff;
-  height: 15vh;
+  height: 25vh;
   text-align: center;
+  position: relative;
+}
+
+.categories .col .title {
+  left: 50%;
+  font-size: 25px;
+  font-family: 'LatoLight', Arial, sans-serif;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.categories .col .tinytxt {
+  font-size: 12px;
+  display: block;
+  font-family: 'LatoRegular', Arial, sans-serif;
 }
 
 .categories .row:nth-child(1) .col:nth-child(1) {
@@ -204,4 +221,15 @@ header.mainScr.mid h1 {
 
 .categories .row:nth-child(3) .col:nth-child(2) {
   background: #222 none repeat scroll 0 0;
+}
+
+.newscat h6 {
+  color: #2a3a80;
+  padding: 20px 0 10px;
+  text-align: center;
+}
+
+.newscat .date, .newscat .pts {
+  color: #c6c6c6;
+  font-size: 10px;
 }
