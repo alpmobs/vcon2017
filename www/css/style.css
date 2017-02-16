@@ -1,0 +1,207 @@
+/* Empty. Add your own CSS if you like */
+
+.bar.bar-header {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 center !important;
+  border: 0 none !important;
+  color: #fff;
+}
+
+.bar.bar-header .buttons.menuTop .button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+  border: 0 none;
+  color: #fff;
+  font-size: 37px;
+  margin: 10px 0 0 11px;
+  padding: 0;
+}
+
+.scroll-content .scroll {
+  margin: -10px 0 0;
+  padding: 0;
+}
+
+.menu .has-header {
+  top: 160px;
+}
+
+.menu {
+  background-color: rgba(0, 0, 0, 1);
+  visibility: visible;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  transition: all 0.5s ease 0s;
+  z-index: 100 !important;
+}
+.menu .scroll {
+  margin: 0 0;
+}
+.menu .item {
+  border-color: #000;
+  background: 0;
+}
+.menu .item-complex .item-content, .menu .item-radio .item-content {
+  background: 0;
+  color: #fff !important;
+}
+.menu-open .menu {
+  visibility: visible;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.menu-open .menu-content {
+  transform: none !important;
+}
+.menu-open .menu-content::before {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  -webkit-filter: blur(0);
+  -moz-filter: blur(0);
+  -o-filter: blur(0);
+  -ms-filter: blur(0);
+  filter: blur(0);
+}
+
+@font-face {
+    font-family: 'LatoBold';
+    src: url('../fonts/Lato-Bol-webfont.eot');
+    src: url('../fonts/Lato-Bol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Bol-webfont.woff') format('woff'),
+         url('../fonts/Lato-Bol-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-Bol-webfont.svg#LatoBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('../fonts/Lato-Reg-webfont.eot');
+    src: url('../fonts/Lato-Reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Reg-webfont.woff') format('woff'),
+         url('../fonts/Lato-Reg-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-Reg-webfont.svg#LatoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoLight';
+    src: url('../fonts/Lato-Lig-webfont.eot');
+    src: url('../fonts/Lato-Lig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Lig-webfont.woff') format('woff'),
+         url('../fonts/Lato-Lig-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-Lig-webfont.svg#LatoLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LatoBlack';
+    src: url('../fonts/Lato-Bla-webfont.eot');
+    src: url('../fonts/Lato-Bla-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Bla-webfont.woff') format('woff'),
+         url('../fonts/Lato-Bla-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-Bla-webfont.svg#LatoBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nopad { padding: 0 !important; }
+
+body { font-family: 'LatoRegular', Arial, sans-serif; }
+
+/* Buttons */
+
+.btnPosBttm {
+  bottom: 0;
+  position: absolute;
+}
+
+.mainScr .btnPosBttm {
+  bottom: 16px;
+  background: #00A7BE;
+}
+
+.buyticket {
+  color: #fff;
+  border: 0 none;
+  border-radius: 0;
+  display: block;
+  font-size: 12px;
+  line-height: 46px;
+  padding: 0;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+/* Main */
+
+header.mainScr {
+  background: #3C4C88;
+  min-height: 433px;
+  padding: 0 16px;
+  position: relative;
+}
+
+header.mainScr.mid {
+  min-height: 223px;
+  position: relative;
+}
+
+header.mainScr.mid h1 {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+
+.mainScr .msg {
+  font-family: 'LatoBlack', Arial, sans-serif;
+  color: #fff;
+  position: absolute;
+  top: 75px;
+  width: 165px;
+}
+
+.mainScr .msg h4 {
+  color: #fff;
+}
+
+.mainScr .msg p {
+  font-size: 11px;
+}
+
+.categories .col {
+  color: #fff;
+  height: 15vh;
+  text-align: center;
+}
+
+.categories .row:nth-child(1) .col:nth-child(1) {
+  background: #000 none repeat scroll 0 0;
+}
+
+.categories .row:nth-child(1) .col:nth-child(2) {
+  background: #333 none repeat scroll 0 0;
+}
+
+.categories .row:nth-child(2) .col:nth-child(1) {
+  background: #999 none repeat scroll 0 0;
+}
+
+.categories .row:nth-child(2) .col:nth-child(2) {
+  background: #666 none repeat scroll 0 0;
+}
+
+.categories .row:nth-child(3) .col:nth-child(1) {
+  background: #555 none repeat scroll 0 0;
+}
+
+.categories .row:nth-child(3) .col:nth-child(2) {
+  background: #222 none repeat scroll 0 0;
+}
