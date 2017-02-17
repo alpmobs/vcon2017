@@ -66,11 +66,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
-      .state('app.gottime', {
-        url: '/gottime',
+      .state('app.mark', {
+        url: '/mark',
         views: {
           'menuContent': {
-            templateUrl: 'templates/gottime.html',
+            templateUrl: 'templates/mark.html',
           }
         }
       })
