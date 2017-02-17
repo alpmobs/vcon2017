@@ -138,6 +138,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      .state('app.whydo', {
+        url: '/whydo',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/whydo.html',
+          }
+        }
+      })
+
       .state('app.splash', {
         url: '/splash',
         views: {

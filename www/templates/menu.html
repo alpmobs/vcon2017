@@ -17,7 +17,7 @@
       <a menu-close href="#/app/main"><img src="http://placehold.it/133x139"></a>
     </ion-header-bar>
     <ion-content has-bouncing="false">
-      <ion-list>
+      <ion-list class="primary">
 
         <ion-item menu-close href="#/app/main">
           Home
@@ -56,9 +56,16 @@
           Login
         </ion-item> -->
       </ion-list>
-      <ion-footer-bar class="bar-stable">
-        <a href="#/app/faq">FAQ</a>
-      </ion-footer-bar>
+
+      <ion-list class="secondary">
+        <ion-item menu-close href="#/app/faq">
+          FAQs
+        </ion-item>
+        <ion-item menu-close href="#/app/contact">
+          Contact
+        </ion-item>
+      </ion-list>
+
     </ion-content>
   </ion-side-menu>
 </ion-side-menus>
