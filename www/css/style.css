@@ -255,7 +255,67 @@ header.mainScr.mid h1 {
 }
 
 /* home */
-#main header.mainScr{
+#main header.mainScr {
   background-image: url("/img/home-background.jpg");
   background-size: cover;
 }
+
+/* What is V-Con?*/
+
+#whatis header.mainScr {
+  background-image: url("/img/whatisvcon-header.jpg");
+  background-size: cover;
+}
+
+/* All About V-Malaysia */
+
+#about header.mainScr {
+  background-image: url("/img/aboutmalaysia-bg.jpg");
+  background-size: cover;
+  height:100vh;
+}
+
+#about .about-title{
+  position: absolute;
+  top: 470px;
+  background-color: #00A7BE;
+  left: 0;
+  padding: 20px;
+  width: 80vw;  
+}
+
+#about .about-title h1:first-child,
+#about .about-title h1:nth-child(2) {
+  font-weight: 300;
+  font-family: "Lato";
+  color: #fff;
+  margin: 0px;
+}
+
+#about .about-title h1:first-child {font-size: 23px; }
+
+#about .about-title h1:nth-child(2) { font-size: 36px; }
+
+
+/* Why Do it Now? */
+
+/* Badge Generator */
+
+/* V-Con Wallpapers */
+
+/* The Speakers */
+
+/* News and Updates */
+
+/* Merchandise */
+
+/* Penang 101 */
+
+/* Buy Ticket */
+
+/* FAQ */
+
+
+
+
+
