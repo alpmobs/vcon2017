@@ -236,3 +236,20 @@ header.mainScr.mid h1 {
   color: #c6c6c6;
   font-size: 10px;
 }
+
+.newscat .row {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  padding: 0;
+}
+
+.newscat .col {
+  text-align: center;
+  display: inline-block;
+  flex: 0 0 auto;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  width: 46%;
+}
