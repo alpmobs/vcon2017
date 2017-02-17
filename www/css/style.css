@@ -253,3 +253,9 @@ header.mainScr.mid h1 {
   overflow: hidden;
   width: 46%;
 }
+
+/* home */
+#main header.mainScr{
+  background-image: url("/img/home-background.jpg");
+  background-size: cover;
+}
