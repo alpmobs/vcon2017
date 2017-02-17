@@ -138,6 +138,24 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      .state('app.splash', {
+        url: '/splash',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/splash.html',
+          }
+        }
+      })
+
+      .state('app.splashnext', {
+        url: '/splashnext',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/splashnext.html',
+          }
+        }
+      })
+
       .state('app.claim', {
         url: '/claim',
         views: {
