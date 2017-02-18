@@ -173,14 +173,32 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
-      .state('app.claim', {
-        url: '/claim',
+      .state('app.howto', {
+        url: '/howto',
         views: {
           'menuContent': {
-            templateUrl: 'templates/claim.html',
+            templateUrl: 'templates/howto.html',
+          }
+        }
+      })
+
+      .state('app.whatto', {
+        url: '/whatto',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/whatto.html',
+          }
+        }
+      })
+
+      .state('app.whereto', {
+        url: '/whereto',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/whereto.html',
           }
         }
       });
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/main');
+    $urlRouterProvider.otherwise('/app/splash');
   });
