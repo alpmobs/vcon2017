@@ -93,6 +93,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      .state('app.newslanding', {
+        url: '/newslanding',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/newslanding.html',
+          }
+        }
+      })
       .state('app.news', {
         url: '/news',
         views: {
@@ -129,11 +137,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
-      .state('app.faq', {
-        url: '/faq',
+      .state('app.faqs-header', {
+        url: '/faqs',
         views: {
           'menuContent': {
-            templateUrl: 'templates/faq.html',
+            templateUrl: 'templates/faqs.html',
           }
         }
       })
