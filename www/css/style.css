@@ -18,8 +18,11 @@
   padding: 0;
 }
 .menu .has-header {
-  top: 160px;
+  top: 210px;
 }
+
+.menu .bar-stable.bar.bar-header { margin: auto; }
+
 .menu {
   background-color: #2a3a80;
   visibility: visible;
@@ -28,6 +31,17 @@
   transition: all 0.5s ease 0s;
   z-index: 100 !important;
 }
+
+.menu .menu-logo {
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.menu .menu-logo img {
+  width: 70%;
+}
+
 .menu .scroll {
   margin: 0;
   padding: 0 0 30px;
