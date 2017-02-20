@@ -506,6 +506,15 @@ p.teal14 {
   position: relative;
 }
 
+#why  .mainScr { z-index: -1; }
+
+#why .header-logo { 
+  margin-top: -50%; 
+  z-index: 99; 
+}
+
+#why .header-logo img { width: 80%; }
+
 /* Badge Generator */
 
 #mark {
