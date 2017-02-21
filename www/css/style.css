@@ -311,25 +311,25 @@ header.mainScr.mid h1 {
   font-family: 'LatoRegular', Arial, sans-serif;
 }
 .categories .row:nth-child(1) .col:nth-child(1) {
-  background: #fff url("/img/home-button-1.jpg") repeat scroll center center / cover;
+  background: #fff url("../img/home-button-1.jpg") repeat scroll center center / cover;
 }
 .categories .row:nth-child(1) .col:nth-child(2) {
-  background: #fff url("/img/home-button-2.jpg") repeat scroll center center / cover;
+  background: #fff url("../img/home-button-2.jpg") repeat scroll center center / cover;
 }
 .categories .row:nth-child(2) .col:nth-child(1) {
-  background: #fff url("/img/home-button-3.jpg") repeat scroll center center / cover;
+  background: #fff url("../img/home-button-3.jpg") repeat scroll center center / cover;
 }
 .categories .row:nth-child(2) .col:nth-child(2) {
-  background: #fff url("/img/home-button-4.jpg") repeat scroll center center / cover;
+  background: #fff url("../img/home-button-4.jpg") repeat scroll center center / cover;
 }
 .categories .row:nth-child(3) .col:nth-child(1) {
-  background: #fff url("/img/home-button-5.jpg") repeat scroll center center / cover;
+  background: #fff url("../img/home-button-5.jpg") repeat scroll center center / cover;
 }
 .categories .row:nth-child(3) .col:nth-child(1) .title {
   top: 30%;
 }
 .categories .row:nth-child(3) .col:nth-child(2) {
-  background: #fff url("/img/home-button-6.jpg") repeat scroll center center / cover;
+  background: #fff url("../img/home-button-6.jpg") repeat scroll center center / cover;
 }
 .categories .row .col {
   transition: all 0.35s ease-in-out 0s;
@@ -408,14 +408,14 @@ header.mainScr.mid h1 {
 /* home */
 
 #main header.mainScr {
-  background-image: url("/img/home-background.jpg");
+  background-image: url("../img/home-background.jpg");
   background-size: cover;
 }
 
 /* What is V-Con?*/
 
 #whatis header.mainScr {
-  background-image: url("/img/whatisvcon-header.jpg");
+  background-image: url("../img/whatisvcon-header.jpg");
   background-size: cover;
 }
 #whatis article.cusContent {
@@ -439,7 +439,7 @@ p.teal14 {
   color: #fff;
 }
 #about header.mainScr {
-  background-image: url("/img/aboutmalaysia-bg.jpg");
+  background-image: url("../img/aboutmalaysia-bg.jpg");
   background-size: cover;
   height: 645px;
 }
@@ -607,7 +607,7 @@ p.teal14 {
   font-size: 20px;
 }
 #downloads header.mainScr {
-  background-image: url("/img/download-wallpapers-header-bg.jpg");
+  background-image: url("../img/download-wallpapers-header-bg.jpg");
   background-position: center center;
   background-size: cover;
   height: 355px;
@@ -634,7 +634,7 @@ p.teal14 {
 /* The Speakers */
 
 #speakers header.mainScr {
-  background-image: url("/img/speakers-header.jpg");
+  background-image: url("../img/speakers-header.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -705,7 +705,7 @@ p.teal14 {
 /* Merchandise */
 
 #merch header.mainScr {
-  background-image: url("/img/merchandise_header.jpg");
+  background-image: url("../img/merchandise_header.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -732,7 +732,7 @@ p.teal14 {
 /* Penang 101 */
 
 #penang header.mainScr {
-  background-image: url("/img/penang101_header.jpg");
+  background-image: url("../img/penang101_header.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -750,7 +750,7 @@ p.teal14 {
 
 #ticket {
   background-attachment: fixed;
-  background-image: url("/img/aboutmalaysia-bg.jpg");
+  background-image: url("../img/aboutmalaysia-bg.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -792,7 +792,7 @@ p.teal14 {
 /* FAQ */
 
 #faq header.mainScr {
-  background-image: url("/img/faqs-header.jpg");
+  background-image: url("../img/faqs-header.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -901,7 +901,7 @@ ion-footer-bar a.back {
   text-align: left;
 }
 .splashbg {
-  background-image: url("/img/splash-bg.jpg");
+  background-image: url("../img/splash-bg.jpg");
   background-position: center center;
   background-size: cover;
 }
