@@ -41,6 +41,51 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      .state('app.main-ar', {
+        url: '/main-ar',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/main-ar.html'
+          }
+        }
+      })
+
+      .state('app.main-fr', {
+        url: '/main-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/main-fr.html'
+          }
+        }
+      })
+
+      .state('app.main-ru', {
+        url: '/main-ru',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/main-ru.html'
+          }
+        }
+      })
+
+      .state('app.main-tr', {
+        url: '/main-tr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/main-tr.html'
+          }
+        }
+      })
+
+      .state('app.main-id', {
+        url: '/main-id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/main-id.html'
+          }
+        }
+      })
+
       .state('app.whatis', {
         url: '/whatis',
         views: {
@@ -92,6 +137,28 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+
+      .state('app.vmp-dato', {
+        url: '/vmp-dato',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vmp-dato-sri-vijay-eswaran.html',
+          }
+        }
+      })
+
+
+
+      .state('app.vp-kpadma', {
+        url: '/vp-kpadma',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-kpadma.html',
+          }
+        }
+      })
+
+
 
       .state('app.newslanding', {
         url: '/newslanding',

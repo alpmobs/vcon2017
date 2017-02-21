@@ -930,3 +930,8 @@ ion-footer-bar a.back {
   transform: translate(-50%, -50%);
   width: 70%;
 }
+
+#splash .item-radio:nth-child(2) input {
+  display: none;
+  left: 0 !important;
+}

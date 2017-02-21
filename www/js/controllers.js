@@ -12,7 +12,7 @@ angular.module('starter.controllers', [])
 
 
   // Create the login modal that we will use later
-  $ionicModal.fromTemplateUrl('templates/contact.html', {
+  $ionicModal.fromTemplateUrl('templates/changelang.html', {
     scope: $scope
   }).then(function(modal) {
     $scope.modal = modal;
