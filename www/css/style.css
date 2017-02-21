@@ -746,6 +746,16 @@ p.teal14 {
   margin: 30px 0 50px;
 }
 
+#penang .item {
+  padding: 0px;
+  margin: 0px;
+}
+#penang .item img {}
+#penang .item .row.penang-item{}
+#penang .penang-text { color: #00a7be;}
+#penang .penang-desc {}
+
+
 /* Buy Ticket */
 
 #ticket {
