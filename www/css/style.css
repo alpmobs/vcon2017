@@ -637,6 +637,7 @@ p.teal14 {
   background-image: url("../img/speakers-header.jpg");
   background-position: center center;
   background-size: cover;
+  z-index: -1;
 }
 #speakers .row {
   margin: 0 0 30px;
@@ -646,6 +647,35 @@ p.teal14 {
   font-size: 12px;
   text-decoration: none;
 }
+
+#speakers .speaker-photo { margin-top: -200px; }
+#speakers .speaker-photo img { width: 80%; }
+
+
+#speakers .speaker-name {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+#speakers .speaker-name h1 {
+  transform: inherit;
+  margin-top: 0;
+  position: initial;
+  color:#00A7BE;
+  font-family: 'Lato';
+}
+
+#speakers .speaker-name h2 {
+  font-size: 18px;
+  margin-bottom: 0px;
+  color: #00A7BE;
+  font-family: 'Lato';
+}
+
+
 /* #speakers img {
   border-radius: 50%;
 } */
