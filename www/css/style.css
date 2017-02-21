@@ -508,9 +508,9 @@ p.teal14 {
 
 #why  .mainScr { z-index: -1; }
 
-#why .header-logo { 
-  margin-top: -50%; 
-  z-index: 99; 
+#why .header-logo {
+  margin-top: -50%;
+  z-index: 99;
 }
 
 #why .header-logo img { width: 80%; }
@@ -646,9 +646,9 @@ p.teal14 {
   font-size: 12px;
   text-decoration: none;
 }
-#speakers img {
+/* #speakers img {
   border-radius: 50%;
-}
+} */
 
 /* News and Updates */
 
