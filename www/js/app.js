@@ -147,10 +147,134 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      .state('app.vfp-jtb', {
+        url: '/vfp-jtb',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vfp-joseph-bismark.html',
+          }
+        }
+      })
 
+      .state('app.vp-tg', {
+        url: '/vp-tg',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-tg-kintanar.html',
+          }
+        }
+      })
 
-      .state('app.vp-kpadma', {
-        url: '/vp-kpadma',
+      .state('app.vp-dil', {
+        url: '/vp-dil',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-donna-imson.html',
+          }
+        }
+      })
+
+      .state('app.vp-rs', {
+        url: '/vp-rs',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-ranjit-singh.html',
+          }
+        }
+      })
+
+      .state('app.vp-ks', {
+        url: '/vp-ks',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-kuna-senathirajah.html',
+          }
+        }
+      })
+
+      .state('app.vp-ps', {
+        url: '/vp-ps',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-pathman-senathirajah.html',
+          }
+        }
+      })
+
+      .state('app.vp-ag', {
+        url: '/vp-ag',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-arun-george.html',
+          }
+        }
+      })
+
+      .state('app.vp-ah', {
+        url: '/vp-ah',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-adly-hassan.html',
+          }
+        }
+      })
+
+      .state('app.vp-ss', {
+        url: '/vp-ss',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-sathi-senathirajah.html',
+          }
+        }
+      })
+
+      .state('app.vp-ft', {
+        url: '/vp-ft',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-ferdie-tolentino.html',
+          }
+        }
+      })
+
+      .state('app.vp-cm', {
+        url: '/vp-cm',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-cherian-mathew.html',
+          }
+        }
+      })
+
+      .state('app.vp-ds', {
+        url: '/vp-ds',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-david-sharma.html',
+          }
+        }
+      })
+
+      .state('app.vp-mk', {
+        url: '/vp-mk',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-mahendra-kumar.html',
+          }
+        }
+      })
+
+      .state('app.vp-dmq', {
+        url: '/vp-dmq',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-dr-motaz-qais.html',
+          }
+        }
+      })
+
+      .state('app.vp-kp', {
+        url: '/vp-kp',
         views: {
           'menuContent': {
             templateUrl: 'templates/vp-kpadma.html',

@@ -171,7 +171,7 @@ article.cusContent p {
   margin: 0 0 30px 0;
 }
 .cusContent .menus>a {
-  border-width: 4px;
+  border-width: 1px;
   border-style: solid;
   clear: both;
   display: block;
@@ -922,6 +922,7 @@ article.selectLang, article.welcomeCont {
   color: #fff;
   background: none;
   margin: 0 0 20px 0;
+  font-size: 1em;
 }
 #splash .item-radio .radio-icon {
   display: none;
@@ -969,7 +970,7 @@ ion-footer-bar a.back {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   color: #fff;
   font-family: "LatoLight", Arial, sans-serif;
-  font-size: 12px;
+  font-size: 1em;
   left: 50%;
   margin: 0 auto;
   padding: 0;
