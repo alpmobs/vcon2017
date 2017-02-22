@@ -55,7 +55,7 @@
   color: #fff !important;
 }
 .menu .primary a {
-  font-size: 12px;
+  font-size: 1em;
 }
 .menu .primary .item {
   border-bottom: 1px solid #0c1c64;
@@ -164,7 +164,7 @@ article.cusContent {
   bottom: 55px;
 }
 article.cusContent p {
-  font-size: 12px;
+  font-size: 1em;
   font-family: 'LatoRegular', Arial, sans-serif;
   line-height: 15px;
   color: #4E4E4E;
@@ -786,7 +786,10 @@ p.teal14 {
   padding: 0px;
   margin: 0px;
   border: none;
-  margin-top: 10px
+  margin-top: 10px;
+  margin-top: 10px;
+  white-space: inherit;
+  margin-bottom: 30px;
 }
 #penang .item img {}
 #penang .item .penang-item{
