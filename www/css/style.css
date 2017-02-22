@@ -675,6 +675,11 @@ p.teal14 {
   font-family: 'Lato';
 }
 
+#speakers p.intro {
+  margin-top: 10px;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
 
 /* #speakers img {
   border-radius: 50%;
