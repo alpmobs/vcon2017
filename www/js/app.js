@@ -346,6 +346,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      .state('app.whydo-ar', {
+        url: '/whydo-ar',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/ar/whydo.html',
+          }
+        }
+      })
+
       .state('app.splash', {
         url: '/splash',
         views: {
@@ -391,5 +400,5 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       });
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/splash');
+    $urlRouterProvider.otherwise('/app/main-ru');
   });
