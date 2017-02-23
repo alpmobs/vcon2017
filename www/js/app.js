@@ -94,6 +94,51 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+      .state('app.whatis-ar', {
+        url: '/whatis',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/whatis.html'
+          }
+        }
+      })
+      .state('app.whatis-id', {
+        url: '/whatis-id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/whatis-id.html'
+          }
+        }
+      })
+      .state('app.whatis-fr', {
+        url: '/whatis-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/whatis-fr.html'
+          }
+        }
+      })
+      .state('app.whatis-ru', {
+        url: '/whatis-ru',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/whatis-ru.html'
+          }
+        }
+      })
+      .state('app.whatis-tr', {
+        url: '/whatis-tr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/whatis-tr.html'
+          }
+        }
+      })
+
+      // 
+      // ----------------- 
+      // 
+
       .state('app.allabout', {
         url: '/allabout',
         views: {
@@ -102,6 +147,51 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+      .state('app.allabout-ar', {
+        url: '/allabout-ar',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/allabout-ar.html'
+          }
+        }
+      })
+      .state('app.allabout-id', {
+        url: '/allabout-id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/allabout-id.html'
+          }
+        }
+      })
+      .state('app.allabout-fr', {
+        url: '/allabout-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/allabout-fr.html'
+          }
+        }
+      })
+      .state('app.allabout-ru', {
+        url: '/allabout-ru',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/allabout-ru.html'
+          }
+        }
+      })
+      .state('app.allabout-tr', {
+        url: '/allabout-tr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/allabout-tr.html'
+          }
+        }
+      })
+
+      // 
+      // ----------------- 
+      // 
+
       .state('app.ticket', {
         url: '/ticket',
         views: {
@@ -110,6 +200,50 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+      .state('app.ticket-ar', {
+        url: '/ticket-ar',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/ticket-ar.html',
+          }
+        }
+      })
+      .state('app.ticket-fr', {
+        url: '/ticket-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/ticket-fr.html',
+          }
+        }
+      })
+      .state('app.ticket-id', {
+        url: '/ticket-id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/ticket-id.html',
+          }
+        }
+      })
+      .state('app.ticket-ru', {
+        url: '/ticket-ru',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/ticket-ru.html',
+          }
+        }
+      })
+      .state('app.ticket-tr', {
+        url: '/ticket-tr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/ticket-tr.html',
+          }
+        }
+      })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.mark', {
         url: '/mark',
@@ -119,6 +253,50 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+      .state('app.mark-ar', {
+        url: '/mark-ar',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/mark-ar.html',
+          }
+        }
+      })
+      .state('app.mark-fr', {
+        url: '/mark-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/mark-fr.html',
+          }
+        }
+      })
+      .state('app.mark-id', {
+        url: '/mark-id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/mark-id.html',
+          }
+        }
+      })
+      .state('app.mark-ru', {
+        url: '/mark-ru',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/mark-ru.html',
+          }
+        }
+      })
+      .state('app.mark-tr', {
+        url: '/mark-tr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/mark-tr.html',
+          }
+        }
+      })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.downloads', {
         url: '/downloads',
@@ -128,6 +306,50 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+      .state('app.downloads-ar', {
+        url: '/downloads-ar',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/downloads-ar.html',
+          }
+        }
+      })
+      .state('app.downloads-fr', {
+        url: '/downloads-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/downloads-fr.html',
+          }
+        }
+      })
+      .state('app.downloads-id', {
+        url: '/downloads-id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/downloads-id.html',
+          }
+        }
+      })
+      .state('app.downloads-ru', {
+        url: '/downloads-ru',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/downloads-ru.html',
+          }
+        }
+      })
+      .state('app.downloads-tr', {
+        url: '/downloads-tr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/downloads-tr.html',
+          }
+        }
+      })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.speakers', {
         url: '/speakers',
@@ -137,6 +359,50 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+      .state('app.speakers-ar', {
+        url: '/speakers-ar',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/thespeakers-ar.html',
+          }
+        }
+      })
+      .state('app.speakers-fr', {
+        url: '/speakers-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/thespeakers-fr.html',
+          }
+        }
+      })
+      .state('app.speakers-id', {
+        url: '/speakers-id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/thespeakers.html-id',
+          }
+        }
+      })
+      .state('app.speakers-ru', {
+        url: '/speakers-ru',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/thespeakers.html-ru',
+          }
+        }
+      })
+      .state('app.speakers-tr', {
+        url: '/speakers-tr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/thespeakers-tr.html',
+          }
+        }
+      })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.vmp-dato', {
         url: '/vmp-dato',
@@ -146,6 +412,51 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+      .state('app.vmp-dato-ar', {
+        url: '/vmp-dato-ar',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vmp-dato-sri-vijay-eswaran-ar.html',
+          }
+        }
+      })
+
+      .state('app.vmp-dato-fr', {
+        url: '/vmp-dato-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vmp-dato-sri-vijay-eswaran-fr.html',
+          }
+        }
+      })
+      .state('app.vmp-dato-id', {
+        url: '/vmp-dato-id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vmp-dato-sri-vijay-eswaran-id.html',
+          }
+        }
+      })
+      .state('app.vmp-dato-ru', {
+        url: '/vmp-dato-ru',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vmp-dato-sri-vijay-eswaran-ru.html',
+          }
+        }
+      })
+      .state('app.vmp-dato-tr', {
+        url: '/vmp-dato-tr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vmp-dato-sri-vijay-eswaran-tr.html',
+          }
+        }
+      })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.vfp-jtb', {
         url: '/vfp-jtb',
@@ -155,6 +466,51 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+      .state('app.vfp-jtb-ar', {
+        url: '/vfp-jtb-ar',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vfp-joseph-bismark-ar.html',
+          }
+        }
+      })
+      .state('app.vfp-jtb-fr', {
+        url: '/vfp-jtb-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vfp-joseph-bismark-fr.html',
+          }
+        }
+      })
+      .state('app.vfp-jtb-id', {
+        url: '/vfp-jtb-id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vfp-joseph-bismark-id.html',
+          }
+        }
+      })
+      .state('app.vfp-jtb-ru', {
+        url: '/vfp-jtb-ru',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vfp-joseph-bismark-ru.html',
+          }
+        }
+      })
+      .state('app.vfp-jtb-tr', {
+        url: '/vfp-jtb-tr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vfp-joseph-bismark-tr.html',
+          }
+        }
+      })
+
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.vp-tg', {
         url: '/vp-tg',
@@ -164,6 +520,50 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+      .state('app.vp-tg-ar', {
+        url: '/vp-tg-ar',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-tg-kintanar-ar.html',
+          }
+        }
+      })
+      .state('app.vp-tg-fr', {
+        url: '/vp-tg-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-tg-kintanar-fr.html',
+          }
+        }
+      })
+      .state('app.vp-tg-id', {
+        url: '/vp-tg-id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-tg-kintanar-id.html',
+          }
+        }
+      })
+      .state('app.vp-tg-ru', {
+        url: '/vp-tg-ru',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-tg-kintanar-ru.html',
+          }
+        }
+      })
+      .state('app.vp-tg-tr', {
+        url: '/vp-tg-tr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/vp-tg-kintanar-tr.html',
+          
+        
+      })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.vp-dil', {
         url: '/vp-dil',
@@ -174,6 +574,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      // 
+      // ----------------- 
+      // 
+
       .state('app.vp-rs', {
         url: '/vp-rs',
         views: {
@@ -182,6 +586,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.vp-ks', {
         url: '/vp-ks',
@@ -192,6 +600,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      // 
+      // ----------------- 
+      // 
+
       .state('app.vp-ps', {
         url: '/vp-ps',
         views: {
@@ -200,6 +612,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.vp-ag', {
         url: '/vp-ag',
@@ -210,6 +626,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      // 
+      // ----------------- 
+      // 
+
       .state('app.vp-ah', {
         url: '/vp-ah',
         views: {
@@ -218,6 +638,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.vp-ss', {
         url: '/vp-ss',
@@ -228,6 +652,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      // 
+      // ----------------- 
+      // 
+
       .state('app.vp-ft', {
         url: '/vp-ft',
         views: {
@@ -236,6 +664,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.vp-cm', {
         url: '/vp-cm',
@@ -246,6 +678,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      // 
+      // ----------------- 
+      // 
+
       .state('app.vp-ds', {
         url: '/vp-ds',
         views: {
@@ -254,6 +690,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.vp-mk', {
         url: '/vp-mk',
@@ -264,6 +704,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      // 
+      // ----------------- 
+      // 
+
       .state('app.vp-dmq', {
         url: '/vp-dmq',
         views: {
@@ -273,6 +717,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      // 
+      // ----------------- 
+      // 
+
       .state('app.vp-kp', {
         url: '/vp-kp',
         views: {
@@ -281,6 +729,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+
+      // 
+      // ----------------- 
+      // 
 
 
 
@@ -292,6 +744,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+
+      // 
+      // ----------------- 
+      // 
       .state('app.news', {
         url: '/news',
         views: {
@@ -300,6 +756,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.penang101', {
         url: '/penang101',
@@ -310,6 +770,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      // 
+      // ----------------- 
+      // 
+
       .state('app.merchandise', {
         url: '/merchandise',
         views: {
@@ -318,6 +782,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.contact', {
         url: '/contact',
@@ -328,6 +796,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      // 
+      // ----------------- 
+      // 
+
       .state('app.faqs-header', {
         url: '/faqs',
         views: {
@@ -336,6 +808,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.whydo', {
         url: '/whydo',
@@ -346,6 +822,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      // 
+      // ----------------- 
+      // 
+
       .state('app.whydo-ar', {
         url: '/whydo-ar',
         views: {
@@ -354,6 +834,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.splash', {
         url: '/splash',
@@ -364,6 +848,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      // 
+      // ----------------- 
+      // 
+
       .state('app.splashnext', {
         url: '/splashnext',
         views: {
@@ -372,6 +860,23 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+
+      // 
+      // ----------------- 
+      // 
+
+      .state('app.splashnext-fr', {
+        url: '/splashnext-fr',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/splashnext-fr.html',
+          }
+        }
+      })
+
+      // 
+      // ----------------- 
+      // 
 
       .state('app.howto', {
         url: '/howto',
@@ -382,6 +887,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      // 
+      // ----------------- 
+      // 
+
       .state('app.whatto', {
         url: '/whatto',
         views: {
@@ -391,6 +900,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      // 
+      // ----------------- 
+      // 
+
       .state('app.whereto', {
         url: '/whereto',
         views: {
@@ -399,6 +912,20 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       });
+      // 
+      // ----------------- 
+      // 
+
+
+      // -------------- ARABIC -------------- //
+      // -------------- FRENCH -------------- //
+      // -------------- INDONESIA -------------- //
+      // -------------- RUSSIAN -------------- //
+      // -------------- TURKISH -------------- //
+
+
+
+
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/main-ru');
+    $urlRouterProvider.otherwise('/app/main-fr');
   });
