@@ -28,7 +28,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       .state('app', {
         url: '/app',
         abstract: true,
-        templateUrl: 'templates/menu.html',
+        templateUrl: 'templates/menu-fr.html',
         controller: 'AppCtrl'
       })
 
@@ -1850,7 +1850,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             templateUrl: 'templates/whereto.html',
           }
         }
-      });
+      })
       .state('app.whereto-ar', {
         url: '/whereto-ar',
         views: {
@@ -1858,7 +1858,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             templateUrl: 'templates/whereto-ar.html',
           }
         }
-      });
+      })
       .state('app.whereto-fr', {
         url: '/whereto-fr',
         views: {
@@ -1866,7 +1866,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             templateUrl: 'templates/whereto-fr.html',
           }
         }
-      });
+      })
       .state('app.whereto-id', {
         url: '/whereto-id',
         views: {
@@ -1874,7 +1874,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             templateUrl: 'templates/whereto-id.html',
           }
         }
-      });
+      })
       .state('app.whereto-ru', {
         url: '/whereto-ru',
         views: {
@@ -1882,7 +1882,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             templateUrl: 'templates/whereto-ru.html',
           }
         }
-      });
+      })
       .state('app.whereto-tr', {
         url: '/whereto-tr',
         views: {
