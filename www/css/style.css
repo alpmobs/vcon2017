@@ -423,7 +423,7 @@ header.mainScr.mid h1 {
 }
 #whatis p.headline {
   color: #497bbc;
-  font-size: 10px;
+  font-size: 13px;
   margin: 0 0 30px;
 }
 p.teal14 {
@@ -813,7 +813,7 @@ p.teal14 {
 }
 #ticket header.mainScr {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  min-height: 449px;
+  min-height: 389px;
 }
 #ticket .button.buyticket {
   background: #00a7be none repeat scroll 0 0;

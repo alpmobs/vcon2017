@@ -28,7 +28,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       .state('app', {
         url: '/app',
         abstract: true,
-        templateUrl: 'templates/menu-fr.html',
+        templateUrl: 'templates/menu-ar.html',
         controller: 'AppCtrl'
       })
 
@@ -95,10 +95,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
       .state('app.whatis-ar', {
-        url: '/whatis',
+        url: '/whatis-ar',
         views: {
           'menuContent': {
-            templateUrl: 'templates/whatis.html'
+            templateUrl: 'templates/whatis-ar.html'
           }
         }
       })
@@ -379,7 +379,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/speakers-id',
         views: {
           'menuContent': {
-            templateUrl: 'templates/thespeakers.html-id',
+            templateUrl: 'templates/thespeakers-id.html',
           }
         }
       })
@@ -387,7 +387,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/speakers-ru',
         views: {
           'menuContent': {
-            templateUrl: 'templates/thespeakers.html-ru',
+            templateUrl: 'templates/thespeakers-ru.html',
           }
         }
       })
@@ -1907,5 +1907,5 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/main-fr');
+    $urlRouterProvider.otherwise('/app/main-id');
   });
