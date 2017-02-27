@@ -867,6 +867,8 @@ p.teal14 {
   width: 100%;
 }
 
+#faq .cusContent.arab-rtl p { text-align: right; }
+
 /* Contact */
 
 #contact {
