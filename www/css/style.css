@@ -1,6 +1,6 @@
 /* Empty. Add your own CSS if you like */
 
-.tr h1, .tr p, .tr h2 {font-family: "LatoLatin" !important; font-weight: 900; }
+.tr h1, .tr p, .tr h2, .tr div, .tr span {font-family: "LatoLatin" !important; font-weight: 900; }
 
 .bar.bar-header {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 center !important;
