@@ -28,7 +28,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       .state('app', {
         url: '/app',
         abstract: true,
-        templateUrl: 'templates/menu-tr.html',
+        templateUrl: 'templates/menu-ru.html',
         controller: 'AppCtrl'
       })
 
@@ -1907,5 +1907,5 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/main-tr');
+    $urlRouterProvider.otherwise('/app/main-ru');
   });
