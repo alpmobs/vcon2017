@@ -801,7 +801,12 @@ p.teal14 {
 
 #penang .penang-text, #penang .penang-desc { text-align: left; }
 
-#penang .penang-text { color: #00a7be; font-size: 1em}
+#penang .penang-text {
+    color: #00a7be;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
 #penang .penang-desc { font-size: .8em }
 
 
