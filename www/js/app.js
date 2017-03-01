@@ -606,11 +606,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
-      .state('app.vp-dil-', {
-        url: '/vp-dil-',
+      .state('app.vp-dil-tr', {
+        url: '/vp-dil-tr',
         views: {
           'menuContent': {
-            templateUrl: 'templates/vp-donna-imson-.html',
+            templateUrl: 'templates/vp-donna-imson-tr.html',
           }
         }
       })
