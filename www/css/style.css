@@ -23,7 +23,12 @@
   top: 210px;
 }
 
-.menu .bar-stable.bar.bar-header { margin: auto; }
+.menu .bar-stable.bar.bar-header { 
+  margin: auto; 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
 
 .menu {
   background-color: #2a3a80;
@@ -811,6 +816,9 @@ p.teal14 {
 }
 #penang .penang-desc { font-size: .8em }
 
+#penang .source { font-size: 0.8em; }
+}
+ 
 
 /* Buy Ticket */
 
