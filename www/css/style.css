@@ -570,7 +570,7 @@ p.teal14 {
   position: relative;
 }
 .step2 .item-complex .item-content, .step2 .item-radio .item-content {
-  background: #F5976F;
+  background: rgba(0, 167, 190, 0.37);
   padding: 2px;
 }
 .step3 .col a {
@@ -599,6 +599,13 @@ p.teal14 {
 }
 .button.btnClaim:hover {
   transform: scale(1.05);
+  color: #fff;
+}
+#mark .photo {
+  height: 270px;
+  width: 270px;
+  background-color: #000;
+  margin: 40px auto;
   color: #fff;
 }
 
