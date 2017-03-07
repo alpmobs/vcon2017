@@ -28,7 +28,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       .state('app', {
         url: '/app',
         abstract: true,
-        templateUrl: 'templates/menu.html',
+        templateUrl: 'templates/menu-ru.html',
         controller: 'AppCtrl'
       })
 
@@ -36,7 +36,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/main',
         views: {
           'menuContent': {
-            templateUrl: 'templates/main.html'
+            templateUrl: 'templates/splash.html'
           }
         }
       })
