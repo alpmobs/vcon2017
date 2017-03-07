@@ -222,6 +222,14 @@ ion-footer-bar a.back i {
 .btnPosBttm {
   bottom: 0;
   position: absolute;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
 }
 .mainScr .btnPosBttm {
   bottom: 16px;
