@@ -219,6 +219,10 @@ ion-footer-bar a.back i {
   top: -3px;
 }
 
+.ar p, .ar button, .ar a, .ar i, .ar div.name .ar h1, .ar h2, .ar h3 {
+  direction: rtl;
+}
+
 /* Buttons */
 
 .btnPosBttm {
