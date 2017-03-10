@@ -60,6 +60,8 @@
 .menu .item-complex .item-content, .menu .item-radio .item-content {
   background: 0;
   color: #fff !important;
+  text-overflow: initial;
+  white-space: initial;
 }
 .menu .primary a {
   font-size: 1em;
