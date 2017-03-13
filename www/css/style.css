@@ -426,6 +426,8 @@ header.mainScr.mid h1 {
   width: 90%;
 }
 
+.ar .newscat .item.loadmore { letter-spacing: 0px !important; }
+
 /* home */
 
 #main header.mainScr {
