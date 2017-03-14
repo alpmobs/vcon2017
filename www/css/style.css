@@ -223,6 +223,8 @@ ion-footer-bar a.back i {
 .ar .penang-item 
 { direction: rtl; }
 
+#penang.ar .penang-desc { text-align: right !important; }
+
 /* Buttons */
 
 .btnPosBttm {
