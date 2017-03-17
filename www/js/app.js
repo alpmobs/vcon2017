@@ -36,7 +36,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/main',
         views: {
           'menuContent': {
-            templateUrl: 'templates/splash.html'
+            templateUrl: 'templates/main.html'
           }
         }
       })
