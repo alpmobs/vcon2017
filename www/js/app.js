@@ -1123,11 +1123,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
-      .state('app.vp-mk-ir', {
-        url: '/vp-mk-ir',
+      .state('app.vp-mk-id', {
+        url: '/vp-mk-id',
         views: {
           'menuContent': {
-            templateUrl: 'templates/vp-mahendra-kumar-ir.html',
+            templateUrl: 'templates/vp-mahendra-kumar-id.html',
           }
         }
       })
