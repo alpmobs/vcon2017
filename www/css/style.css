@@ -204,6 +204,10 @@ ion-footer-bar a {
   top: 16px;
   text-transform: uppercase;
 }
+ion-footer-bar a.footer-back{ 
+  position: static;
+  padding-top: 14px;
+}
 ion-footer-bar a i {
   float: right;
   font-size: 24px;
