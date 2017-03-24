@@ -724,6 +724,10 @@ p.teal14 {
   line-height: 1.2em;
 }
 
+#speakers .name { font-size: 14px !important; }
+
+#speakers div.light-blue { opacity: .5; font-size: 12px !important;}
+
 /* #speakers img {
   border-radius: 50%;
 } */
