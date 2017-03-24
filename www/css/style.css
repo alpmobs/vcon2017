@@ -2,18 +2,22 @@
 
 .tr h1, .tr p, .tr h2, .tr div, .tr span {font-family: "LatoLatin" !important; font-weight: 900; }
 
+.has-header {
+  top: 0!important;
+}
 .bar.bar-header {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 center !important;
   border: 0 none !important;
   color: #fff;
+  position: fixed;
 }
 .bar.bar-header .buttons.menuTop .button {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+  background: rgb(0, 167, 190) none repeat scroll 0 center;
   border: 0 none;
   color: #fff;
   font-size: 37px;
   margin: 10px 0 0 11px;
-  padding: 0;
+  padding: 0 8px 35px;
 }
 .scroll-content .scroll {
   margin: -10px 0 0;
@@ -33,6 +37,8 @@
   display: -o-flex;
   display: flex;
   justify-content: center;
+  overflow: hidden;
+  height: 270px;
 }
 
 .menu {
@@ -48,6 +54,7 @@
   margin: auto;
   text-align: center;
   padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .menu .menu-logo img {
@@ -178,9 +185,9 @@ article.cusContent {
   bottom: 55px;
 }
 article.cusContent p {
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: 'LatoRegular', Arial, sans-serif;
-  line-height: 15px;
+  line-height: 1.2em;
   color: #4E4E4E;
   margin: 0 0 30px 0;
 }
@@ -266,7 +273,7 @@ ion-footer-bar a.back i {
   border: 0 none;
   border-radius: 0;
   display: block;
-  font-size: 12px;
+  font-size: 1em;
   line-height: 46px;
   padding: 0;
   text-transform: uppercase;
@@ -457,7 +464,7 @@ header.mainScr.mid h1 {
 }
 #whatis p.headline {
   color: #497bbc;
-  font-size: 13px;
+  font-size: 1.2em;
   margin: 0 0 30px;
 }
 p.teal14 {
@@ -780,7 +787,7 @@ p.teal14 {
 }
 .newsinside .insideCont p {
   text-align: left;
-  font-size: 13px !important;
+  font-size: 1em !important;
   line-height: 18px !important;
 }
 
@@ -895,7 +902,7 @@ p.teal14 {
 #ticket article.cusContent p {
   color: #fff !important;
   font-family: "LatoBlack", Arial, sans-serif;
-  font-size: 13px;
+  font-size: 1em;
   line-height: 16px;
   margin: 0 auto;
   width: 60%;
