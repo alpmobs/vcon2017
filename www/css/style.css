@@ -241,6 +241,30 @@ ion-footer-bar a.back i {
 
 #penang.ar .penang-desc { text-align: right !important; }
 
+.backtotop {
+  text-decoration: none;
+  float: right;
+  background: #f38c6d;
+  color: white !important;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.backtotop a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#main .backtotop {
+  background-color: #00a7be;
+  width: 90%;
+  margin: 20px;
+  text-align: center;
+}
+
+#main .backtotop a { text-transform: capitalize; }
+
 /* Buttons */
 
 .btnPosBttm {
