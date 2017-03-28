@@ -18,7 +18,10 @@
   font-size: 37px;
   margin: 10px 0 0 11px;
   padding: 0 8px 35px;
+  display: block;
 }
+
+
 .scroll-content .scroll {
   margin: -10px 0 0;
   padding: 0;
@@ -369,10 +372,15 @@ header.mainScr.mid h1 {
   display: block;
 }
 .categories .col .tinytxt {
-  font-size: 12px;
+  font-size: 60%;
   display: block;
   font-family: 'LatoRegular', Arial, sans-serif;
 }
+.categories .col .largetext { 
+  font-size: 120%;
+}
+
+
 .categories .row:nth-child(1) .col:nth-child(1) {
   background: #fff url("../img/home-button-1.jpg") repeat scroll center center / cover;
 }
@@ -1082,3 +1090,8 @@ ion-footer-bar a.back {
   display: none;
   left: 0 !important;
 }
+.buyticket
+{ font-size: 120%; }
+
+
+
