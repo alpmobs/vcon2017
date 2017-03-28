@@ -11,6 +11,7 @@ angular.module('starter.controllers', [])
 
 
 
+
   // Create the login modal that we will use later
   $ionicModal.fromTemplateUrl('templates/changelang.html', {
     scope: $scope
@@ -39,16 +40,35 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
+.controller('PlaylistsCtrl', function($scope,$ionicScrollDelegate) {
+    //$scope.sttButton = false;
+
+  $scope.scrollTop = function(){
+    $ionicScrollDelegate.scrollTop();
+    // $scope.sttButton = false;
+  };
+
+  // $scope.getScrollPosition = function(){
+  //   var moveData = $ionicScrollDelegate.getScrollPosition().top;
+
+  //   $scope.$apply(function(){
+  //     if(moveDate > 150 ){
+  //       $scope.sttButton = true;
+  //     }else{
+  //       $scope.sttButton = fase;
+  //     }
+
+  //   })
+  // }
+
+
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
+
+
+
 });
+
+
+

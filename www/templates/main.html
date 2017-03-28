@@ -4,7 +4,7 @@
         <button class="button ion-navicon" menu-toggle="left"></button>
       </div>
     </ion-header-bar>
-  <ion-content has-bouncing="false" padding="false" id="top">
+  <ion-content  has-bouncing="false" padding="false" id="top" on-scroll="getScrollPosition()">
     
     <header class="mainScr">
       <div class="msg">
@@ -87,7 +87,7 @@
     </div>
 
     <a class="button buyticket orange" href="#" onclick="window.open('http://the-v.net/vshoppe/category/v-malaysia-2017-early-bird-ticket', '_system', 'location=yes'); return false;">Buy Ticket</a>
-    <div class="backtotop"><a href="#top">Back to Top</a></div>
+    <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">Back to Top</div>
 
   </ion-content>
 </ion-view>
