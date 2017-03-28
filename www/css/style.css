@@ -244,9 +244,11 @@ ion-footer-bar a.back i {
 
 #penang.ar .penang-desc { text-align: right !important; }
 
-.backtotop {
+/*.backtotop {
   text-decoration: none;
   float: right;
+  background: grey;
+  color: #f38c6d;
   background: #f38c6d;
   color: white !important;
   margin-right: 10px;
@@ -255,18 +257,24 @@ ion-footer-bar a.back i {
 }
 
 .backtotop a {
-  color: #fff;
+  color: #f38c6d;
   text-decoration: none;
-}
+}*/
 
-#main .backtotop {
-  background-color: #00a7be;
+.backtotop {
+  background-color: #f5f5f5;
   width: 90%;
   margin: 20px;
   text-align: center;
+  color: #00A7BE;
+  padding:10px;
+  font-size: 100%;
 }
 
-#main .backtotop a { text-transform: capitalize; }
+.backtotop a { 
+  text-transform: capitalize; 
+
+}
 
 /* Buttons */
 
