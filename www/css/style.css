@@ -361,7 +361,7 @@ header.mainScr.mid h1 {
   color: #fff;
 }
 .mainScr .msg p {
-  font-size: 11px;
+  font-size: 90%;
 }
 .categories .col {
   color: #fff;
@@ -371,7 +371,7 @@ header.mainScr.mid h1 {
 }
 .categories .col .title {
   left: 50%;
-  font-size: 25px;
+  font-size: 200%;
   font-family: 'LatoLight', Arial, sans-serif;
   position: absolute;
   top: 50%;
@@ -380,7 +380,7 @@ header.mainScr.mid h1 {
   display: block;
 }
 .categories .col .tinytxt {
-  font-size: 60%;
+  font-size: 60% !important;
   display: block;
   font-family: 'LatoRegular', Arial, sans-serif;
 }
@@ -509,8 +509,8 @@ header.mainScr.mid h1 {
 }
 p.teal14 {
   color: #00A7BE !important;
-  font-size: 14px !important;
-  line-height: 17px !important;
+  font-size: 1em !important;
+  line-height: 1em !important;
 }
 
 /* All About V-Malaysia */
@@ -1099,7 +1099,8 @@ ion-footer-bar a.back {
   left: 0 !important;
 }
 .buyticket
-{ font-size: 120%; }
+{ font-size: 1.2em; }
 
+/* Font size adjustment for larger screens */
 
 
