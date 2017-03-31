@@ -346,7 +346,7 @@ header.mainScr {
   position: relative;
 }
 header.mainScr.mid {
-  min-height: 223px;
+  min-height: 160px;
   position: relative;
 }
 header.mainScr.mid h1 {
@@ -595,7 +595,7 @@ p.teal14 {
   position: relative;
 }
 
-#why  .mainScr { z-index: -1; }
+#why  .mainScr { z-index: -1; height: 233px;}
 
 #why .header-logo {
   margin-top: -50%;
@@ -737,6 +737,7 @@ p.teal14 {
   background-position: center center;
   background-size: cover;
   z-index: -1;
+  height:223px;
 }
 #speakers .row {
   margin: 0 0 30px;
