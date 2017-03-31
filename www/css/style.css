@@ -521,6 +521,8 @@ p.teal14 {
   line-height: 1em !important;
 }
 
+#whatis header.mainScr.mid h1 { bottom: 30%; }
+
 /* All About V-Malaysia */
 
 #about {
@@ -621,6 +623,7 @@ p.teal14 {
   transform: translate(-50%, -50%);
   width: 80%;
   font-size: 20px;
+  bottom: 20%;
 }
 #mark header.mainScr {
   background: none;
@@ -819,6 +822,8 @@ p.teal14 {
   text-align: center;
   text-transform: uppercase;
 }
+#newslanding header.mainScr.mid h1 { bottom: 10%; }
+
 .newsinside .insideCont>img {
   height: auto;
   margin: 0 0 10px;
@@ -1020,6 +1025,7 @@ p.teal14 {
   font-family: "LatoLight", Arial, sans-serif;
 }
 
+#contact.ar article.cusContent p { text-align: center !important; }
 /* Splash */
 
 #splash {
