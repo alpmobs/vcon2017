@@ -193,7 +193,15 @@ article.cusContent p {
   line-height: 1.2em;
   color: #4E4E4E;
   margin: 0 0 30px 0;
+  text-align: left;
 }
+/*for arabic*/
+.ar article.cusContent p {
+  text-align: right !important;
+}
+
+article.cusContent p.headline { text-align: center; }
+
 .cusContent .menus>a {
   border-width: 1px;
   border-style: solid;
@@ -218,6 +226,7 @@ ion-footer-bar a {
   text-decoration: none;
   top: 16px;
   text-transform: uppercase;
+  font-size: 1.2em;
 }
 ion-footer-bar a.footer-back{ 
   position: static;
@@ -360,9 +369,8 @@ header.mainScr.mid h1 {
 .mainScr .msg h4 {
   color: #fff;
 }
-.mainScr .msg p {
-  font-size: 90%;
-}
+.mainScr .msg p { font-size: 90%; }
+.ar .mainScr .msg p { text-align: left; }
 .categories .col {
   color: #fff;
   height: 25vh;
@@ -550,8 +558,8 @@ p.teal14 {
 }
 #about article.cusContent p {
   color: #fff;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 1.2em;
+  line-height: 1.5em;
 }
 #about .headline {
   font-size: 12px;
@@ -621,6 +629,7 @@ p.teal14 {
 #mark .cusContent .title {
   color: #fff;
   font-size: 18px;
+  text-align: center;
 }
 #mark article.cusContent p {
   color: #fff;
@@ -907,9 +916,9 @@ p.teal14 {
 
 /* Buy Ticket */
 
-#ticket {
+#ticket .scroll-content {
   background-attachment: fixed;
-  background-image: url("../img/aboutmalaysia-bg.jpg");
+  background-image: url("../img/aboutmalaysia-bg.jpg") !important ;
   background-position: center center;
   background-size: cover;
 }
@@ -917,6 +926,8 @@ p.teal14 {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   min-height: 389px;
 }
+#ticket .hasfooter {background-image: url("../img/aboutmalaysia-bg.jpg");}
+
 #ticket .button.buyticket {
   background: #00a7be none repeat scroll 0 0;
   font-size: 20px;
@@ -990,6 +1001,7 @@ p.teal14 {
 #contact article.cusContent p {
   color: #fff;
   margin: 0 0 30px 0;
+  text-align: center;
 }
 #contact article.cusContent p.med {
   font-size: 14px;
