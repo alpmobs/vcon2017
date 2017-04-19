@@ -28,6 +28,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       .state('app', {
         url: '/app',
         abstract: true,
+		cache: false,
         templateUrl: 'templates/menu.html',
         controller: 'AppCtrl'
       })
@@ -36,7 +37,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/main',
         views: {
           'menuContent': {
-            templateUrl: 'templates/main.html'
+            templateUrl: 'templates/main.html',
+			controller: 'HomeCtrl'
             
           }
         }
@@ -46,7 +48,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/main-ar',
         views: {
           'menuContent': {
-            templateUrl: 'templates/main-ar.html'
+            templateUrl: 'templates/main-ar.html',
+			controller: 'HomeCtrl'
           }
         }
       })
@@ -55,7 +58,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/main-fr',
         views: {
           'menuContent': {
-            templateUrl: 'templates/main-fr.html'
+            templateUrl: 'templates/main-fr.html',
+			controller: 'HomeCtrl'
           }
         }
       })
@@ -64,7 +68,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/main-ru',
         views: {
           'menuContent': {
-            templateUrl: 'templates/main-ru.html'
+            templateUrl: 'templates/main-ru.html',
+			controller: 'HomeCtrl'
           }
         }
       })
@@ -73,7 +78,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/main-tr',
         views: {
           'menuContent': {
-            templateUrl: 'templates/main-tr.html'
+            templateUrl: 'templates/main-tr.html',
+			controller: 'HomeCtrl'
           }
         }
       })
@@ -82,7 +88,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/main-id',
         views: {
           'menuContent': {
-            templateUrl: 'templates/main-id.html'
+            templateUrl: 'templates/main-id.html',
+			controller: 'HomeCtrl'
           }
         }
       })
@@ -1266,6 +1273,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/newslanding.html',
+			controller: 'NewsUpdateCtrl'
           }
         }
       })
@@ -1274,6 +1282,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/newslanding-ar.html',
+			controller: 'NewsUpdateCtrl'
           }
         }
       })
@@ -1282,6 +1291,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/newslanding-fr.html',
+			controller: 'NewsUpdateCtrl'
           }
         }
       }).state('app.newslanding-id', {
@@ -1289,6 +1299,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/newslanding-id.html',
+			controller: 'NewsUpdateCtrl'
           }
         }
       })
@@ -1297,6 +1308,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/newslanding-ru.html',
+			controller: 'NewsUpdateCtrl'
           }
         }
       })
@@ -1305,6 +1317,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/newslanding-tr.html',
+			controller: 'NewsUpdateCtrl'
           }
         }
       })
@@ -1314,9 +1327,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       // 
       .state('app.news', {
         url: '/news',
+		cache: false,
         views: {
           'menuContent': {
             templateUrl: 'templates/news.html',
+			controller: 'NewsSingleCtrl'
           }
         }
       })
@@ -1325,6 +1340,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/news-ar.html',
+			controller: 'NewsSingleCtrl'
           }
         }
       })
@@ -1333,6 +1349,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/news-id.html',
+			controller: 'NewsSingleCtrl'
           }
         }
       })
@@ -1341,6 +1358,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/news-fr.html',
+			controller: 'NewsSingleCtrl'
           }
         }
       })
@@ -1349,6 +1367,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/news-ru.html',
+			controller: 'NewsSingleCtrl'
           }
         }
       })
@@ -1357,6 +1376,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/news-tr.html',
+			controller: 'NewsSingleCtrl'
           }
         }
       })
@@ -1420,9 +1440,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
       .state('app.merchandise', {
         url: '/merchandise',
+		cache: false,
         views: {
           'menuContent': {
             templateUrl: 'templates/merchandise.html',
+			controller: 'MerchantCtrl'
           }
         }
       })
@@ -1430,7 +1452,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/merchandise-ar',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise-ar.html',
+            templateUrl: 'templates/merchandise.html',
           }
         }
       })
@@ -1438,7 +1460,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/merchandise-fr',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise-fr.html',
+            templateUrl: 'templates/merchandise.html',
           }
         }
       })
@@ -1446,7 +1468,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/merchandise-id',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise-id.html',
+            templateUrl: 'templates/merchandise.html',
           }
         }
       })
@@ -1454,7 +1476,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/merchandise-tr',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise-tr.html',
+            templateUrl: 'templates/merchandise.html',
           }
         }
       })
@@ -1462,7 +1484,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         url: '/merchandise-ru',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise-ru.html',
+            templateUrl: 'templates/merchandise.html',
           }
         }
       })
@@ -1636,6 +1658,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/splash.html',
+			controller: 'LanguageCtrl'
           }
         }
       })
@@ -1644,6 +1667,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/splash-ar.html',
+			controller: 'LanguageCtrl'
           }
         }
       })
@@ -1652,6 +1676,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/splash-fr.html',
+			controller: 'LanguageCtrl'
           }
         }
       })
@@ -1660,6 +1685,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/splash-id.html',
+			controller: 'LanguageCtrl'
           }
         }
       })
@@ -1668,6 +1694,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/splash-ru.html',
+			controller: 'LanguageCtrl'
           }
         }
       })
@@ -1676,6 +1703,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/splash-tr.html',
+			controller: 'LanguageCtrl'
           }
         }
       })
@@ -1908,5 +1936,5 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/main');
+    $urlRouterProvider.otherwise('/app/splash');
   });

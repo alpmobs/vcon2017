@@ -1,69 +1,192 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
-
-  // With the new view caching in Ionic, Controllers are only called
-  // when they are recreated or on app start, instead of every page change.
-  // To listen for when this page is active (for example, to refresh data),
-  // listen for the $ionicView.enter event:
-  //$scope.$on('$ionicView.enter', function(e) {
-  //});
-
-
-
-
-  // Create the login modal that we will use later
-  $ionicModal.fromTemplateUrl('templates/changelang.html', {
-    scope: $scope
-  }).then(function(modal) {
-    $scope.modal = modal;
-  });
-
-  // Triggered in the login modal to close it
-  $scope.closeContact = function() {
-    $scope.modal.hide();
-  };
-
-  // Open the login modal
-  $scope.contact = function() {
-    $scope.modal.show();
-  };
-
-  // Perform the login action when the user submits the login form
-  $scope.doLogin = function() {
-
-    // Simulate a login delay. Remove this and replace with your login
-    // code if using a login system
-    $timeout(function() {
-      $scope.closeContact();
-    }, 1000);
-  };
+.controller('AppCtrl', function($scope, $ionicModal) {
+	$scope.$on('$ionicView.enter',function(e){
+		$("#MenuATSarabic").hide();
+		$("#MenuATSenglish").hide();
+		$("#MenuATSfrench").hide();
+		$("#MenuATSindo").hide();
+		$("#MenuATSrussian").hide();
+		$("#MenuATSturk").hide();
+		switch(window.localStorage['language'])
+		{
+			case "A":
+				$scope.PageLanguage = "ENGLISH"; 
+				$("#MenuATSenglish").show(); 
+				window.localStorage['mylanguage'] = "en";
+				break;
+			case "B":
+				$scope.PageLanguage = "العربية"; 
+				$("#MenuATSarabic").show(); 
+				window.localStorage['mylanguage'] = "ar";
+				break;
+			case "C":
+				$scope.PageLanguage = "Bahasa-Indonesia"; 
+				$("#MenuATSindo").show();
+				window.localStorage['mylanguage'] = "id";
+				break;
+			case "D":
+				$scope.PageLanguage = "Français"; 
+				$("#MenuATSfrench").show(); 
+				window.localStorage['mylanguage'] = "fr";
+				break;
+			case "F":
+				$scope.PageLanguage = "Русский"; 
+				$("#MenuATSrussian").show();
+				window.localStorage['mylanguage'] = "ru";
+				break;
+			case "E":
+				$scope.PageLanguage = "Türkçe";
+				$("#MenuATSturk").show();
+				window.localStorage['mylanguage'] = "tr";
+				break;
+			default: 
+				$scope.PageLanguage = "ENGLISH";
+				$("#MenuATSenglish").show();
+				window.localStorage['mylanguage'] = "en";
+				break;
+		}
+	});
 })
 
-.controller('PlaylistsCtrl', function($scope,$ionicScrollDelegate) {
-    //$scope.sttButton = false;
+.controller('HomeCtrl', function($scope,$ionicLoading,$http) {
 
-  $scope.scrollTop = function(){
+$scope.postForm = function(){
+		$ionicLoading.show({
+			template: 'Verifying...',
+			duration: 2000
+		});
+		var encodedString = 'action=' +
+				encodeURIComponent("getOldsNews") +
+				'&count=4' +
+				'&page=1' +
+				'&language=' +
+				encodeURIComponent(window.localStorage['mylanguage']);
+		$http({
+				method: 'POST',
+				url: 'http://cums.the-v.net/site.aspx',
+				data: encodedString,
+				headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+			})
+			.success(function(data, status, headers, config) {
+					$ionicLoading.hide();
+					$scope.myNews = data;
+			})
+			.error(function(data, status, headers, config) {
+				$ionicLoading.hide();
+			})
+
+	}
+
+	$scope.postForm();
+})
+.controller('LanguageCtrl', function($scope, $stateParams) {
+
+	$scope.getLang = function(language){
+		window.localStorage['language'] =language;
+	};
+})
+.controller('NewsUpdateCtrl', function($scope, $stateParams,$http,$ionicLoading) {
+	
+$scope.postForm = function(){
+		$ionicLoading.show({
+			template: 'Verifying...',
+			duration: 2000
+		});
+		var encodedString = 'action=' +
+				encodeURIComponent("getOldsNews") +
+				'&count=10' +
+				'&page=1' +
+				'&language=' +
+				encodeURIComponent(window.localStorage['mylanguage']);
+		$http({
+				method: 'POST',
+				url: 'http://cums.the-v.net/site.aspx',
+				data: encodedString,
+				headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+			})
+			.success(function(data, status, headers, config) {
+					$ionicLoading.hide();
+					$scope.myNews = data;
+			})
+			.error(function(data, status, headers, config) {
+				$ionicLoading.hide();
+			})
+
+	}
+
+	$scope.postForm();
+	
+})
+.controller('NewsSingleCtrl', function($scope, $stateParams,$location,$http,$ionicLoading) {
+	$scope.postForm = function(){
+		$ionicLoading.show({
+			template: 'Verifying...',
+			duration: 2000
+		});
+		var encodedString = 'action=' +
+				encodeURIComponent("getNews") +
+				'&URL=' +
+				encodeURIComponent($location.search()["id"])+
+				'&language=' +
+				encodeURIComponent(window.localStorage['mylanguage']);;
+		$http({
+				method: 'POST',
+				url: 'http://cums.the-v.net/site.aspx',
+				data: encodedString,
+				headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+			})
+			.success(function(data, status, headers, config) {
+					$ionicLoading.hide();
+					$scope.myNews = data;
+			})
+			.error(function(data, status, headers, config) {
+				$ionicLoading.hide();
+			})
+
+	}
+
+	$scope.postForm();
+})
+.controller('MerchantCtrl', function($scope, $stateParams,$location,$http,$ionicLoading) {
+	$scope.postForm = function(){
+		$ionicLoading.show({
+			template: 'Verifying...',
+			duration: 2000
+		});
+		
+
+		
+		var url = "http://the-v.net/Resources/VCONApp_Merchandise.json?callback=JSON_CALLBACK"
+		+'&dummy='+ Date.now();;
+
+		//get merchandise and place into myMerchandise
+			$http.jsonp(url)
+		.success(function (data, status, headers, config) {
+		$scope.myMerchandise = data;
+		})
+		.error(function (data, status, headers, config) {
+		$scope.statcode = status;
+		});	
+       
+	}
+	function JSON_CALLBACK(data)
+	{
+		alert(data);
+	}
+	$scope.postForm();
+})
+
+
+
+.controller('PlaylistsCtrl', function($scope, $stateParams) {
+//WHY THE FUCK IS THIS IN A PLAYLIST CONTROLLER????
+$scope.scrollTop = function(){
     $ionicScrollDelegate.scrollTop();
     // $scope.sttButton = false;
   };
 
-  // $scope.getScrollPosition = function(){
-  //   var moveData = $ionicScrollDelegate.getScrollPosition().top;
-
-  //   $scope.$apply(function(){
-  //     if(moveDate > 150 ){
-  //       $scope.sttButton = true;
-  //     }else{
-  //       $scope.sttButton = fase;
-  //     }
-
-  //   })
-  // }
-
-
 })
-
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 
 

@@ -30,8 +30,8 @@
   top: 210px;
 }
 
-.menu .bar-stable.bar.bar-header { 
-  margin: auto; 
+.menu .bar-stable.bar.bar-header {
+  margin: auto;
   text-align: center;
   display: flex;
   display: -webkit-flex;
@@ -228,7 +228,7 @@ ion-footer-bar a {
   text-transform: uppercase;
   font-size: 1.2em;
 }
-ion-footer-bar a.footer-back{ 
+ion-footer-bar a.footer-back{
   position: static;
   padding-top: 14px;
 }
@@ -247,8 +247,8 @@ ion-footer-bar a.back i {
   top: -3px;
 }
 
-.ar p, .ar button, .ar a, .ar i, .ar div.name .ar h1, .ar h2, .ar h3, 
-.ar .penang-item 
+.ar p, .ar button, .ar a, .ar i, .ar div.name .ar h1, .ar h2, .ar h3,
+.ar .penang-item
 { direction: rtl; }
 
 #penang.ar .penang-desc { text-align: right !important; }
@@ -280,8 +280,8 @@ ion-footer-bar a.back i {
   font-size: 100%;
 }
 
-.backtotop a { 
-  text-transform: capitalize; 
+.backtotop a {
+  text-transform: capitalize;
 
 }
 
@@ -313,6 +313,7 @@ ion-footer-bar a.back i {
   color: #fff;
 }
 .buyticket {
+  display: none;
   color: #fff;
   border: 0 none;
   border-radius: 0;
@@ -325,6 +326,7 @@ ion-footer-bar a.back i {
   margin: 0 auto;
 }
 .button.buyticket.orange {
+  display: none;
   background: #f5976f none repeat scroll 0 0;
   transition: all 0.35s ease-in-out 0s;
   -moz-transition: all 0.35s ease-in-out 0s;
@@ -392,7 +394,7 @@ header.mainScr.mid h1 {
   display: block;
   font-family: 'LatoRegular', Arial, sans-serif;
 }
-.categories .col .largetext { 
+.categories .col .largetext {
   font-size: 120%;
 }
 
@@ -456,12 +458,18 @@ header.mainScr.mid h1 {
   text-align: right;
 }
 .newscat .row {
-  clear: both;
-  display: block;
-  overflow: hidden;
-  padding: 0;
+     justify-items: center;
+    text-align: center;
+    clear: both;
+    display: flex;
+    overflow: hidden;
+    padding: 0;
+    /* margin: auto; */
+    flex-direction: column;
 }
 .newscat .col.item {
+  padding: 10px 0px;
+  align-self: center;
   text-align: center;
   display: inline-block;
   flex: 0 0 auto;
@@ -469,15 +477,19 @@ header.mainScr.mid h1 {
   margin: 0 5px 25px;
   border: 0;
   overflow: hidden;
-  width: 46%;
+  width: 80%;
   -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15);
 }
 .newscat .col>h4 {
-  color: #535353;
-  font-size: 12px;
+  font-family: 'LatoRegular';
+  color: #00A4C8;
+  font-size: 16px;
   text-align: left;
+  text-overflow: initial;
+  white-space: normal;
+  padding-top: 10px;
 }
 .newscat .item.loadmore {
   background: #f0f0f0 none repeat scroll 0 0;
@@ -493,6 +505,22 @@ header.mainScr.mid h1 {
 }
 
 .ar .newscat .item.loadmore { letter-spacing: 0px !important; }
+
+.newscat .date, .newscat .col>h4 {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.newscat .date { color: #9e9e9e; }
+
+.newscat h3 {
+  text-align: left;
+  font-family: 'LatoRegular';
+  padding-left: 10px;
+  font-size: 12px;
+  padding-bottom: 10px;
+  color: #9e9e9e;
+}
 
 /* home */
 
@@ -760,7 +788,7 @@ p.teal14 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 #speakers .speaker-name h1 {
@@ -846,6 +874,8 @@ p.teal14 {
   line-height: 18px !important;
 }
 
+.newsinside .insideCont p img{display: none;}
+
 /* Merchandise */
 
 #merch header.mainScr {
@@ -918,7 +948,7 @@ p.teal14 {
 
 #penang .source { font-size: 0.8em; }
 }
- 
+
 
 /* Buy Ticket */
 
@@ -1035,6 +1065,11 @@ article.selectLang, article.welcomeCont {
   height: 100vh;
   position: relative;
 }
+
+.selectLang input[type="radio"] {
+  display: none;
+}
+
 #splash .list {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   color: #fff;
@@ -1121,5 +1156,3 @@ ion-footer-bar a.back {
 { font-size: 1.2em; }
 
 /* Font size adjustment for larger screens */
-
-

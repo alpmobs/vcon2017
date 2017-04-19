@@ -9,8 +9,13 @@
       <h1>Berita Dan Kabar Terbaru</h1>
     </header>
     <article class="cusContent">
+     <div class="list">
 
-      <div class="list">
+        <a href="#/app/news?id={{mnews.Title}}" nav-direction="forward" class="item item-thumbnail-left" href="#" ng-repeat="mnews in myNews | filter: '2017' | orderBy: 'mnews.CreatedOn'">
+          <img  src="{{mnews.ImageLink}}" width="100%" height="auto" class="center ">
+          <h2>{{mnews.localTitle}}</h2>
+        </a>
+      </div>
 
         <a href="#/app/news" nav-direction="forward" class="item item-thumbnail-left" href="#">
           <img src="http://placehold.it/110x80" width="100%" height="auto" class="center ">
@@ -54,6 +59,6 @@
   </ion-content>
   <ion-footer-bar align-title="right" class="bar-assertive">
     <a href="#/app/speakers-id" nav-direction="back" class="footer-back"><i class="ion-ios-arrow-left"></i></a>
-    <a href="#/app/ticket-id" nav-direction="forward">Beli Tiket<i class="ion-ios-arrow-right"></i></a>
+    <a href="#/app/penang101-id" nav-direction="forward">PENANG 101<i class="ion-ios-arrow-right"></i></a>
   </ion-footer-bar>
 </ion-view>

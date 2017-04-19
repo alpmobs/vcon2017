@@ -12,41 +12,11 @@
 
       <div class="list">
 
-        <a href="#/app/news" nav-direction="forward" class="item item-thumbnail-left" href="#">
-          <img src="http://placehold.it/110x80" width="100%" height="auto" class="center ">
-          <h2>Pretty Hate Machine</h2>
+        <a href="#/app/news?id={{mnews.Title}}" nav-direction="forward" class="item item-thumbnail-left" href="#" ng-repeat="mnews in myNews | filter: '2017' | orderBy: 'mnews.CreatedOn'">
+          <img  src="{{mnews.ImageLink}}" width="100%" height="auto" class="center ">
+          <h2>{{mnews.localTitle}}</h2>
         </a>
-
-        <a href="#/app/news" nav-direction="forward" class="item item-thumbnail-left" href="#">
-          <img src="http://placehold.it/110x80" width="100%" height="auto" class="center ">
-          <h2>Pretty Hate Machine</h2>
-        </a>
-
-        <a href="#/app/news" nav-direction="forward" class="item item-thumbnail-left" href="#">
-          <img src="http://placehold.it/110x80" width="100%" height="auto" class="center ">
-          <h2>Pretty Hate Machine</h2>
-        </a>
-
-        <a href="#/app/news" nav-direction="forward" class="item item-thumbnail-left" href="#">
-          <img src="http://placehold.it/110x80" width="100%" height="auto" class="center ">
-          <h2>Pretty Hate Machine</h2>
-        </a>
-
-        <a href="#/app/news" nav-direction="forward" class="item item-thumbnail-left" href="#">
-          <img src="http://placehold.it/110x80" width="100%" height="auto" class="center ">
-          <h2>Pretty Hate Machine</h2>
-        </a>
-
-        <a href="#" nav-direction="forward" class="item loadmore" href="#">
-          Load more
-        </a>
- 
-
       </div>
-<div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
-      <i class="ion-ios-arrow-up"></i> &nbsp; &nbsp;
-      Back to Top
-    </div>
 
     </article>
 
@@ -55,6 +25,6 @@
   </ion-content>
   <ion-footer-bar align-title="right" class="bar-assertive">
       <a href="#/app/speakers" nav-direction="back" class="footer-back"><i class="ion-ios-arrow-left"></i></a>
-      <a href="#/app/ticket" nav-direction="forward">Buy Ticket<i class="ion-ios-arrow-right"></i></a>
+      <a href="#/app/penang101" nav-direction="forward">Penang 101<i class="ion-ios-arrow-right"></i></a>
   </ion-footer-bar>
 </ion-view>
