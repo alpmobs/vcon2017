@@ -22,7 +22,7 @@
         <a href="#/app/news?id={{mnews.Title}}" nav-direction="forward"  class="col item"
      ng-repeat="mnews in myNews | filter: '2017' | orderBy: 'mnews.CreatedOn'">
           <h4>{{mnews.localTitle}}</h4>
-          <h3>in (category) </h3>
+          <h3>in {{mnews.SubCategory}} </h3>
           <img src="{{mnews.ImageLink}}"  width="100%" height="auto" class="center ">
           
           <div class="row">

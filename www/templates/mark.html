@@ -14,28 +14,21 @@
       <p class="title">MAKE YOUR V-CON MARK</p>
       <p class="headline">Stamp your photos with the magic of V-Con with these EXCLUSIVE #VCON17 badges! Just follow these 3 easy steps:</p>
       <p>1. Upload your photo.<br>
-         2. Choose a badge<br>
-         3. Select ‘MARK IT’<br>
-         4. Download and share your newly marked V-Con photo!</p>
-        <a class="button btnClaim">UPLOAD PHOTO</a>
+         2. Select ‘MARK IT’<br>
+         3. Download and share your newly marked V-Con photo!</p>
+        <input type="file" name="UploadedImage" id="sf_db_profile_userupload" />
     </div>
 
     <div class="step2" style="display: block">
-        <div class="photo"> <img src=""/> (photo here)</div>
-        <p class="title">Choose a Badge</p>
-        <ion-list>
-          <ion-radio ng-model="choice" ng-value="'A'">  <img src="img/badge-vcon.png" width="100%" height="auto" class="center "></ion-radio>
-          <ion-radio ng-model="choice" ng-value="'B'">  <img src="img/badge-v.png" width="100%" height="auto" class="center "></ion-radio>
-         
-        </ion-list>
+        
     </div>
 
     <div class="step3" style="display: block">
         <p class="title">Download & Share</p>
-        <div class="badge"><img src="img/photo-sample.png" width="100%" height="auto" class="center "></div>
+        <div class="badge"><img id="img" width="100%" height="auto" class="center "></div>
         <div class="row">
-          <div class="col col-50"><a href="" class="button btnClaim">Download</a></div>
-          <div class="col col-50"><a href="" class="button btnClaim">Share</a></div>
+          <div class="col col-50"><a href="" class="button btnClaim" 
+		  ng-click="downloadFile(finalUrl)">Download</a></div>
         <div>
     </div>
     </article>
